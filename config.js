@@ -1,9 +1,9 @@
 module.exports = {
 	bot: {
-		token: 'B0T.T0K3N.H3R3',
+		token: process.envTOKEN,
 		prefix: '!',
-		clientSecret: 'CLIENT_SECRET',
-		clientID: 'CLIENT_ID'
+		clientSecret: process.env.SECRET,
+		clientID: process.env.ID
 	},
 	website: {
 		protocol: 'https://',
