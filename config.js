@@ -7,7 +7,7 @@ module.exports = {
 	},
 	website: {
 		protocol: 'https://',
-		domain: 'domain.name',
+		domain: 'verify.up.railway.app',
 		port: 8080,
 		captcha: {
 			sitekey: '6LfxEzwaAAAAAAAAAAAAAAArFfN0zpwri4rm',
