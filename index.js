@@ -7,6 +7,7 @@ const Client = require('./Structures/legendJsClient.js'),
 	dashboard = require('./dashboard/index'),
 	moment = require('moment'),
 	config = require('./config');
+const TOKEN = process.env.DISCORD_TOKEN;
 
 client.loadCommands();
 
@@ -156,7 +157,7 @@ client.on('guildMemberRemove', async member => {
 	db.delete(`verified_${member.guild.id}_${member.user.id}`);
 });
 
-client.login(token).catch(err => {
+client.login(TOKEN).catch(err => {
 	console.log('[ERROR]: Invalid Token Provided');
 });
 dashboard(client);
