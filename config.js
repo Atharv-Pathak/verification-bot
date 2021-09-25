@@ -10,8 +10,8 @@ module.exports = {
 		domain: 'domain.name',
 		port: 8080,
 		captcha: {
-			sitekey: 'SITE_KEY',
-			secretkey: 'SECRET_KEY'
+			sitekey: '6LfxEzwaAAAAAAAAAAAAAAArFfN0zpwri4rm',
+			secretkey: '6LfxEzwaAAAAAAAAAAAa8dG7OhMBx78TRFZdJ'
 		}
 	}
 };
