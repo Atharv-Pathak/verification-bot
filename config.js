@@ -1,6 +1,6 @@
 module.exports = {
 	bot: {
-		token: process.envTOKEN,
+		token: process.env.TOKEN,
 		prefix: '!',
 		clientSecret: process.env.SECRET,
 		clientID: process.env.ID
